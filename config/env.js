@@ -1,6 +1,6 @@
 module.exports = {
-    port: process.env.PORT || 9785,
-    realm: process.env.REALM || 'http://localhost:3000/',
+    port: process.env.PORT || 8080,
+    realm: process.env.REALM || 'http://localhost:8080/',
     db: {
         URI: process.env.DBURI || 'mongodb://localhost:27017/blog',
         retry: process.env.DBRETRY || 5
